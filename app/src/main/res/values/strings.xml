@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AJGCompass</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_destination_fragment">Destination Fragment</string>
+    <string name="hello_direction_fragment">Direction Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_debug_fragment">Debug fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
