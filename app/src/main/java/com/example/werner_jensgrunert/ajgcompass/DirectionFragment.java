@@ -92,9 +92,9 @@ public class DirectionFragment extends Fragment implements LocationListener {
         if (new_driving_distance) {
             new_driving_distance = false;
             previousLocation = location;
+
             DrivenDistance = 0.0f;
-            // } else if (location.hasSpeed() && location.hasBearing() && location.hasAccuracy() && location.getAccuracy() < 30.0f) {
-        } else {
+        } else if (location.hasSpeed() && location.hasBearing() && location.hasAccuracy() && location.getAccuracy() < 20.0f) {
             DrivenDistance = DrivenDistance + Math.abs(location.distanceTo(previousLocation));
             previousLocation = location;
         }
