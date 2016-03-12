@@ -93,11 +93,13 @@ public class DirectionFragment extends Fragment implements LocationListener {
             new_driving_distance = false;
             previousLocation = location;
             DrivenDistance = 0.0f;
-        } else if (location.hasSpeed() && location.hasBearing() && location.hasAccuracy()) {
+            // } else if (location.hasSpeed() && location.hasBearing() && location.hasAccuracy() && location.getAccuracy() < 30.0f) {
+        } else {
             DrivenDistance = DrivenDistance + Math.abs(location.distanceTo(previousLocation));
-            textViewDrivenDistance.setText(String.format(Locale.getDefault(),"Trip: %.2f km",DrivenDistance / 1000.0f));
             previousLocation = location;
         }
+
+        textViewDrivenDistance.setText(String.format(Locale.getDefault(),"Trip: %.2f km",DrivenDistance / 1000.0f));
 
         DestinationBearing = Math.round(Distance[1]);
 
@@ -115,6 +117,7 @@ public class DirectionFragment extends Fragment implements LocationListener {
         }
 
         if(location.hasBearing()) {
+
             CurrentBearing = Math.round(location.getBearing());
             if (CurrentBearing < 0 ) {
                 CurrentBearing = 360 + CurrentBearing;
