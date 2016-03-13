@@ -1,8 +1,7 @@
-package com.example.werner_jensgrunert.ajgcompass;
+package com.wg.werner_jensgrunert.ajgcompass;
 
 
 import android.Manifest;
-import android.app.LoaderManager;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.graphics.ColorFilter;
@@ -16,10 +15,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
-import android.widget.SeekBar;
 import android.widget.TextView;
 
 import java.util.Locale;
