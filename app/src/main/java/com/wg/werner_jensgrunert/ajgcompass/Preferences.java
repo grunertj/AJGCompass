@@ -1,4 +1,4 @@
-package com.example.werner_jensgrunert.ajgcompass;
+package com.wg.werner_jensgrunert.ajgcompass;
 
 import android.content.Context;
 import android.content.SharedPreferences;

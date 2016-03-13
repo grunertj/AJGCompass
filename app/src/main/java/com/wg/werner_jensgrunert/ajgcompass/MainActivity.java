@@ -1,4 +1,4 @@
-package com.example.werner_jensgrunert.ajgcompass;
+package com.wg.werner_jensgrunert.ajgcompass;
 
 import android.Manifest;
 import android.content.Context;
@@ -13,13 +13,8 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 import android.view.ViewGroup;
-import android.view.Window;
 import android.view.WindowManager;
-import android.widget.TextView;
-
-import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     static final int USER_PERMISSION_REQUEST = 10;

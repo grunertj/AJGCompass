@@ -1,13 +1,11 @@
-package com.example.werner_jensgrunert.ajgcompass;
+package com.wg.werner_jensgrunert.ajgcompass;
 
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.ViewGroup;
 
 
 // https://developer.android.com/intl/ko/samples/ImmersiveMode/src/com.example.android.immersivemode/ImmersiveModeFragment.html

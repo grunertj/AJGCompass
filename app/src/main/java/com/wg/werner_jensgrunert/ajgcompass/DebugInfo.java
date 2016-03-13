@@ -1,4 +1,4 @@
-package com.example.werner_jensgrunert.ajgcompass;
+package com.wg.werner_jensgrunert.ajgcompass;
 
 /**
  * Created by Werner-Jens Grunert on 3/10/2016.
